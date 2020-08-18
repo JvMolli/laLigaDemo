@@ -1,0 +1,49 @@
+@import "../../style/colors/settings.scss";
+
+.users {
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  color: antiquewhite;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+li:hover {
+  background: $liga-dark-blue;
+  color: $liga-dark-blue;
+  cursor: pointer;
+}
+
+.icon {
+  color: $liga-yellow;
+}
+
+.icon:hover {
+  color: $liga-red;
+}

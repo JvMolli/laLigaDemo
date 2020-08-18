@@ -1,0 +1,19 @@
+@import "../../style/colors/settings.scss";
+@import "../../style/functions.scss";
+
+body {
+  background: url("../../logoLiga.jpg");
+}
+.layout {
+  background: url("../../logoLiga.jpg");
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: ghostwhite;
+  background-color: $liga-black;
+  height: space(1);
+  padding: space(1);
+}

@@ -1,0 +1,7 @@
+@function lh($multiples: 1) {
+  @return #{1.25 * $multiples}rem;
+}
+
+@function space($multiple) {
+  @return lh($multiple);
+}

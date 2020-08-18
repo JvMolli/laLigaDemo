@@ -1,0 +1,12 @@
+@import "../../style/colors/settings.scss";
+
+$button-default-color: $liga-sky-blue;
+
+.button {
+  background-color: $button-default-color;
+  color: $liga-black;
+  &-disabled {
+    background-color: ghostwhite;
+    color: $liga-dark-blue;
+  }
+}

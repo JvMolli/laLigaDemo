@@ -1,0 +1,40 @@
+.animation-rigth {
+  animation: to-right 2s !important;
+}
+
+.animation-left {
+  animation: to-left 2s !important;
+}
+
+.animation-left-abs {
+  animation: to-left-abs 2s !important;
+}
+
+@keyframes to-right {
+  0% {
+    position: absolute;
+    margin-left: -700%;
+  }
+  100% {
+    position: relative;
+    margin-left: 0%;
+  }
+}
+
+@keyframes to-left-abs {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes to-left {
+  0% {
+    margin-right: -700%;
+  }
+  100% {
+    margin-right: 0%;
+  }
+}
