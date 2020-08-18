@@ -1,6 +1,6 @@
 # Título del Proyecto
 
-Prueba React liga
+React liga
 
 ## Comenzando 🚀
 
@@ -12,15 +12,15 @@ debe de tener una version actualizada de node
 
 ### Instalación 🔧
 
-haga un npm install en la raiz del proyecto
+haga un `npm install` en la raiz del proyecto
 
 ## Ejecutando las pruebas ⚙️
 
-ejecute npm run test para ejecutar los test si lo cree necesario
+ejecute `npm run test` para ejecutar los test si lo cree necesario
 
 ## Despliegue 📦
 
-ejecute npm star
+ejecute `npm start`
 
 en su navegador vaya a http://localhost:3000/
 
